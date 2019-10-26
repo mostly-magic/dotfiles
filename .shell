@@ -1,0 +1,6 @@
+for option in autocd cdspell checkwinsize globstar nocaseglob; do
+	shopt -s "$option" 2> /dev/null;
+done;
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"

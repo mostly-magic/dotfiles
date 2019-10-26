@@ -1,0 +1,6 @@
+HISTCONTROL=ignoreboth
+
+shopt -s histappend
+
+HISTSIZE=10000
+HISTFILESIZE="$HISTSIZE"
