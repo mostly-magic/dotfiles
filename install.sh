@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Original from https://github.com/mathiasbynens/dotfiles
-
+# Prompt taken from Matthias Bynen's dotfiles
+# https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/LICENSE-MIT.txt
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
