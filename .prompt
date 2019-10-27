@@ -3,7 +3,7 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-# Prompt taken from Matthias Bynen's dotfiles
+# Prompt taken from Matthias Bynens' dotfiles
 # https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/LICENSE-MIT.txt
 prompt_git() {
 	local s='';

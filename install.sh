@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Prompt taken from Matthias Bynen's dotfiles
+# Prompt taken from Matthias Bynens' dotfiles
 # https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/LICENSE-MIT.txt
 cd "$(dirname "${BASH_SOURCE}")";
 

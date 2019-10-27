@@ -1,0 +1,47 @@
+# Modified from Matthias Bynens
+# https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/LICENSE-MIT.txt
+[apply]
+    whitespace = fix
+
+[color "branch"]
+	current = 228 reverse
+	local = 228
+	remote = 84
+
+[color "diff"]
+	meta = 228 bold
+	frag = 141 bold # line info
+	old = 203 # deletions
+	new = 84 # additions
+
+[color "interactive"]
+    prompt = 117
+    header = 255
+    error = 203
+
+[color "status"]
+    added = 84
+    changed = 117
+    header = 255
+    untracked = 141
+
+[core]
+    attributesFile = "~/.gitattributes"
+    editor = "vim"
+    excludesfile = "~/.gitignore"
+    untrackedCache = true
+
+[diff]
+	renames = copies
+
+[diff "bin"]
+	textconv = hexdump -v -C
+
+[help]
+	autocorrect = 1
+
+[merge]
+	log = true
+
+[push]
+	followTags = true
